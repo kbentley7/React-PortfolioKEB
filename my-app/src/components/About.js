@@ -1,5 +1,5 @@
 import React from 'react';
-import me from ''
+import me from '../../src/components/images/me.jpg'
 
 export default function About() {
   return (
@@ -11,7 +11,7 @@ export default function About() {
       </div>
       <br></br> <br></br>
       <p id="about-me-text" className="central-content">
-      I am 
+      My background is education, I'm now transitioning into the world of coding.
       </p>
     </div>
   );
