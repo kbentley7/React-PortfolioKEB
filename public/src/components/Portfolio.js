@@ -1,7 +1,7 @@
 import React from 'react';
-import deck from '';
+import decked from '../images/';
 import employee from '';
-import password from '';
+import password from '../images/password.png';
 import cupboard from '';
 import readme from '';
 import note from '';
@@ -13,7 +13,7 @@ export default function Portfolio() {
         <h1>Portfolio</h1>
         <div id="apps" className="central-content">
                 <a href="https://github.com/kbentley7/Decked-Out" id="app1" target="blank_" tabIndex="-1" className="portfolio-item">
-                    <img src={deck} alt="Decked-Out" className="app-imgs" tabIndex="0" /> 
+                    <img src={decked} alt="Decked-Out" className="app-imgs" tabIndex="0" /> 
                     <p className="app-title">
                         Decked-Out
                     </p>
@@ -43,7 +43,7 @@ export default function Portfolio() {
                     </p>
                 </a>
                 <a href="https://github.com/kbentley7/NoteTakerkb" id="app6" target="blank_" tabIndex="-1" className="portfolio-item">
-                    <img src={note} alt="Code for an e-commerce back end" className="app-imgs" tabIndex="0" />
+                    <img src={note} alt="Note Taker" className="app-imgs" tabIndex="0" />
                     <p className="app-title">
                         Note Taker
                     </p>
