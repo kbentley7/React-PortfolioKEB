@@ -1,10 +1,10 @@
 import React from 'react';
-import decked from '../images/';
+import decked from '../images/decked.png';
 import employee from '';
 import password from '../images/password.png';
 import cupboard from '';
 import readme from '';
-import note from '';
+import note from '../images/note.png';
 
 
 export default function Portfolio() {
