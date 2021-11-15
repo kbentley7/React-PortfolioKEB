@@ -1,10 +1,12 @@
 import React from "react";
-import Display from "./components/Display";
-
-
+import PortfolioContent from "./components/PortfolioContent";
 
 function App() {
-  return <Display />;
+  return (
+    <div>
+      <PortfolioContent/>
+    </div>
+  );
 }
 
 export default App;
