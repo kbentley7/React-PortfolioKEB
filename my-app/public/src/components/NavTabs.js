@@ -5,7 +5,7 @@ function NavTabs(props) {
     return (
         <header className="container-fluid bg-secondary text-white">
             <div className="row align-items-center d-flex flex-wrap-reverse justify-content-lg-around justify-content-md-center text-center">
-                <div className="col-lg-3 col-md-5 header-name d-flex flex-column"><span className="name-span">Kenneth E. Bentley, Sr.</span> <span className="desc-span">Full-stack web developer</span></div>
+                <div className="col-lg-3 col-md-5 header-name d-flex flex-column"><span className="name-span">Kenneth E. Bentley, Sr.</span> <span className="desc-span">Full-stack Web Developer</span></div>
                 <div className="col-lg-6 col-md-12 d-flex justify-content-around flex-nowrap header-links">
                     <a 
                         href="#about-me" 
