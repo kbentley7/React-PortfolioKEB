@@ -1,6 +1,6 @@
 import React from "react";
-import mark from "../src/components/images/myphoto"
-import "./About-me.css"
+import mark from "../../../assets/myphoto"
+import "./about-me.css"
 
 export default function AboutMe() {
 

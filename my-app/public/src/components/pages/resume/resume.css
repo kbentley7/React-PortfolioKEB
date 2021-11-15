@@ -1,0 +1,26 @@
+.resume {
+    color:blue;
+    text-decoration: none;
+    padding: 10px 7px;
+    font-size: 24px;
+}
+
+h1 {
+    padding-top: 5px;
+}
+
+h3 {
+    color: blueviolet;
+    font-size: 210% !important;
+    text-align: center;
+}
+
+.resume-ul {
+    padding: 0 !important;
+}
+
+li {
+    color: blue;
+    list-style: none;
+    font-size: 115% !important;
+}

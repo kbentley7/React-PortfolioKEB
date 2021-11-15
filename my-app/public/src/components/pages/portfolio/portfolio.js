@@ -1,10 +1,10 @@
 import React from "react";
 import PortfolioCard from "./portfolioCard";
 import "./portfolio.css"
-import employee tracker from "";
-import gotYouCupboard from "";
-import decked-out from "";
-import note    from "";
+import employee tracker from "./images/employee.png";
+import gotYouCupboard from "./images/cupboard.png";
+import decked-out from "./images/decked";
+import note    from "./images/note.png";
 
 export default function Portfolio() {
 

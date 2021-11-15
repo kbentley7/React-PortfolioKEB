@@ -4,20 +4,20 @@
 }
 
 h4 a {
-    color: #936fff;
+    color:green;
     text-decoration: none;
 }
 
 h4 {
-    color: #660fa0;
+    color:green;
 }
 
 button {
-    background-color: #936fff !important;
+    background-color:greenyellow !important;
 }
 
 label {
-    color: #660fa0;
+    color: greenyellow;
     font-size: 17px;
     font-weight: 400;
 }
