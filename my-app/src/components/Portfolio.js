@@ -1,54 +1,44 @@
-import React from 'react';
-import decked from '../../src/components/images/decked.png';
-import employee from '../../src/components/images/employee.png';
-import password from '../../src/components/images/password.png';
-import cupboard from '../../src/components/images/cupboard.png';
-import readme from '../../src/components/images/readme.png';
-import note from '../../src/components/images/note.png';
-
+import React, { useState } from "react";
+import NavTabs from "./NavTabs";
+import AboutMe from "./pages/about-me/about-me";
+import ContactMe from "./pages/contact-me/contact-me";
+import Portfolio from "./pages/portfolio/portfolio";
+import Resume from "./pages/resume/resume";
 
 export default function Portfolio() {
+    const [currentPage, setCurrentPage] = useState("About Me");
+
+    const renderPage = () => {
+        if (currentPage === "About Me"){
+            return <AboutMe />;
+        } else if (currentPage === "Portfolio") {
+            return <Portfolio />;
+        } else if (currentPage === "Contact Me") {
+            return <ContactMe />;
+        } else if (currentPage === "Resume") {
+            return <Resume />;
+        }
+    };
+
+    const handlePageChange = (page) => setCurrentPage(page);
+
     return (
-      <div>
-        <h1>Portfolio</h1>
-        <div id="apps" className="central-content">
-                <a href="https://github.com/kbentley7/Decked-Out" id="app1" target="blank_" tabIndex="-1" className="portfolio-item">
-                    <img src={decked} alt="Decked-Out" className="app-imgs" tabIndex="0" /> 
-                    <p className="app-title">
-                        Decked-Out
-                    </p>
-                </a>
-                <a href="https://github.com/kbentley7/SQL-Employee-Trackerkb" id="app2" target="blank_" tabIndex="-1" className="portfolio-item">
-                    <img src={employee} alt="SQL Employee Tracker" className="app-imgs" tabIndex="0" /> 
-                    <p className="app-title">
-                        SQL Employee Tracker
-                    </p>
-                </a>
-                <a href="https://github.com/kbentley7/passwordhomework" id="app3" target="blank_" tabIndex="-1" className="portfolio-item">
-                    <img src={password} alt="Password Generator webpage" className="app-imgs" tabIndex="0" /> 
-                    <p className="app-title">
-                        Password Generator
-                    </p>
-                </a>
-                <a href="https://github.com/kbentley7/got-you-cupboard" id="app4" target="blank_" tabIndex="-1" className="portfolio-item">
-                    <img src={cupboard} alt="Got You Cupboard" className="app-imgs" tabIndex="0" />
-                    <p className="app-title">
-                        Got You Cupboard
-                    </p>
-                </a>
-                <a href="https://github.com/kbentley7/Readme-Generatorkb" id="app5" target="blank_" tabIndex="-1" className="portfolio-item">
-                    <img src={readme} alt="Readme Generator" className="app-imgs" tabIndex="0" />
-                    <p className="app-title">
-                        Reademe Generator
-                    </p>
-                </a>
-                <a href="https://github.com/kbentley7/NoteTakerkb" id="app6" target="blank_" tabIndex="-1" className="portfolio-item">
-                    <img src={note} alt="Note Taker" className="app-imgs" tabIndex="0" />
-                    <p className="app-title">
-                        Note Taker
-                    </p>
-                </a>
+        <div className="parent">
+            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+            {renderPage()}
+            <div className="container-fluid footer-container bg-secondary text-white">
+                <div className="row d-flex justify-content-around">
+                    <div className="col-4 text-center">
+                    <a href="https://github.com/kbentley7" target="_blank" rel="noreferrer" className="a-footer" ><i className="fab fa-github"></i></a>
+                    </div>
+                    <div className="col-4 text-center">
+                    <a href="kenmo8466@gmail.com" className="a-footer" ><i className="fas fa-envelope"></i></a>
+                    </div>
+                    <div className="col-4 text-center">
+                        <a href="https://www.linkedin.com/in/kenneth-e-bentley-sr-3340369a/" target="_blank" rel="noreferrer" className="a-footer"><i className="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
             </div>
-      </div> 
-    );
-  }
+        </div>
+    )
+}
