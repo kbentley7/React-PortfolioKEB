@@ -1,7 +1,7 @@
 import React from "react";
 import PortfolioCard from "./portfolioCard";
 import "./portfolio.css"
-import employeeTracker from "./images/employee.png";
+import password from "./images/password.png";
 import gotYouCupboard from "./images/cupboard.png";
 import deckedOut from "./images/decked.png";
 import note    from "./images/note.png";
@@ -30,20 +30,20 @@ export default function Portfolio() {
             githubLink: "https://github.com/kbentley7/NoteTakerkb",
             deployedLink: "https://notetaker-keb.herokuapp.com/"
         },
-        // //projectFour: {
-        //     //name: "Password Generator",
-        //     //image: password,
-        //     description: "For this assignment the task I had to create a click button secure password with the criteria of choose a length of at least 8 characters and no more than 128 characters. Technologies Used: HTML5, CSS, JavaScript",
-        //     githubLink: "https://github.com/kbentley7/passwordhomework",
-        //     deployedLink: "https://kbentley7.github.io/passwordhomework/"
-       // },
-        // projectFive: {
-        //     name: "",
-        //     image: "",
-        //     description: "",
-        //     githubLink: "",
-        //     deployedLink: ""
-        // },
+        projectFour: {
+        name: "Password Generator",
+        image: password,
+             description: "For this assignment the task I had to create a click button secure password with the criteria of choose a length of at least 8 characters and no more than 128 characters. Technologies Used: HTML5, CSS, JavaScript",
+             githubLink: "https://github.com/kbentley7/passwordhomework",
+           deployedLink: "https://kbentley7.github.io/passwordhomework/"
+        },
+          //projectFive: {
+            //name: "",
+            //image: "",
+            //description: "",
+            //githubLink: "",
+            //deployedLink: ""
+        },
         // projectSix: {
         //     name: "",
         //     image: "",
