@@ -43,7 +43,7 @@ export default function Portfolio() {
             //description: "",
             //githubLink: "",
             //deployedLink: ""
-        },
+       // },
         // projectSix: {
         //     name: "",
         //     image: "",
