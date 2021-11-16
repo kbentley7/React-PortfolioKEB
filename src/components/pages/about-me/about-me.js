@@ -1,5 +1,5 @@
 import React from "react";
-import mark from "../../../assets/myphoto"
+import myphoto from "../../../assets/myphoto.jpg"
 import "./about-me.css"
 
 export default function AboutMe() {

@@ -1,9 +1,9 @@
 import React from "react";
 import PortfolioCard from "./portfolioCard";
 import "./portfolio.css"
-import employee tracker from "./images/employee.png";
+import employeeTracker from "./images/employee.png";
 import gotYouCupboard from "./images/cupboard.png";
-import decked-out from "./images/decked";
+import deckedOut from "./images/decked.png";
 import note    from "./images/note.png";
 
 export default function Portfolio() {
@@ -18,7 +18,7 @@ export default function Portfolio() {
         },
         projectTwo: {
             name: "Decked-Out",
-            image: Deck,
+            image: deckedOut,
             description: "Are you in school, college or maybe a boot camp course? Is studying something that causes you stress and makes you cringe just at the thought of making a stack of index cards. Well have no fear! DeckedOut is here to help! With our interactive platform you can create multiple study lessons and create all the note cards you could ever need all in one place! With our DeckedOut platform studying just because more exciting!",
             githubLink: "https://github.com/kbentley7/Decked-Out",
             deployedLink: "https://deckedout-penn.herokuapp.com/ "
@@ -30,13 +30,13 @@ export default function Portfolio() {
             githubLink: "https://github.com/kbentley7/NoteTakerkb",
             deployedLink: "https://notetaker-keb.herokuapp.com/"
         },
-        projectFour: {
-            name: "Password Generator",
-            image: password,
-            description: "For this assignment the task I had to create a click button secure password with the criteria of choose a length of at least 8 characters and no more than 128 characters. Technologies Used: HTML5, CSS, JavaScript",
-            githubLink: "https://github.com/kbentley7/passwordhomework",
-            deployedLink: "https://kbentley7.github.io/passwordhomework/"
-        },
+        // //projectFour: {
+        //     //name: "Password Generator",
+        //     //image: password,
+        //     description: "For this assignment the task I had to create a click button secure password with the criteria of choose a length of at least 8 characters and no more than 128 characters. Technologies Used: HTML5, CSS, JavaScript",
+        //     githubLink: "https://github.com/kbentley7/passwordhomework",
+        //     deployedLink: "https://kbentley7.github.io/passwordhomework/"
+       // },
         // projectFive: {
         //     name: "",
         //     image: "",
