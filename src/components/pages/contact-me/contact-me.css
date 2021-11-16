@@ -13,11 +13,11 @@ h4 {
 }
 
 button {
-    background-color:greenyellow !important;
+    background-color:green !important;
 }
 
 label {
-    color: greenyellow;
+    color: green;
     font-size: 17px;
     font-weight: 400;
 }
