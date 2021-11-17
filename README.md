@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Link to Deployed App [React Portfolio](https://kbentley7.github.io/React-PortfolioKEB/).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
