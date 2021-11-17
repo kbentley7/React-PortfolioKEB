@@ -14,7 +14,7 @@ export default function Portfolio() {
             image: gotYouCupboard,
             description: "This website allows you to search for recipes using just ingredients. You can also search for nearby grocery stores. This sites utilizes Edamam's and MapQuest's APIs. It was build using HTML, CSS, JavaScript, and Materialize.",
             githubLink: "https://github.com/kbentley7/got-you-cupboard",
-            deployedLink: "https://jfisher37.github.io/got-you-cupboard/index.html/"
+            deployedLink: "https://jfisher37.github.io/got-you-cupboard/index.html"
         },
         projectTwo: {
             name: "Decked-Out",
